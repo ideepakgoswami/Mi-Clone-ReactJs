@@ -1,0 +1,35 @@
+.ProductReviewCard{
+    background-color: #ffffff;
+    padding-bottom: 2vmax;
+    margin: 2vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+ text-align: center;
+}
+
+.ProductReviewCard img{
+        width: 90%;
+
+}
+
+.ProductReviewCard:hover{
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.ProductReviewCard h5{
+    margin: 2vmax 0 0.5vmax 0;
+    color: rgb(94, 94, 94);
+    text-align: center;
+}
+
+.ProductReviewCard span{
+    margin: 0 2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vmax;
+    color: rgb(94, 94, 94);
+}
+
+.ProductReviewCard b{
+    font-size: 1vmax;
+    color: orangered;
+}
